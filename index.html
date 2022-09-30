@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./BOOTSTRAP2.0/bootstrap.css">
+</head>
+<body>
+   <center>   
+     <h1> CALCULATOR</h1>  
+ </center>
+<!-- part1 -->
+<div class="calculator-body">
+    <div class="name-tags">
+      <div class="calc-name">Calculator</div>
+      <div class="end-icons">
+       <div class="hover"><i class="fa-solid fa-minus"></i></div>
+       <div class="hover"><i class="fa-regular fa-square"></i></div>
+       <div class="hover" id="cl"><i class="fa fa-remove "></i></div>
+      </div>
+    </div>
+  
+  <!-- part2 -->
+  <div class="calculation-box">
+  <div class="extra-info">
+      <div class="first-part">
+      <button id="hover" ><i class="fa fa-bars"></i></button>
+      <h5>Standard</h5>
+      <button id="hover"><i class="fa-solid fa-up-right-from-square"></i></button>
+      </div>
+      <div  class="part-2">
+       <button id="hover">
+          <i class="fa fa-history "></i>
+       </button>
+      </div>
+ </div>
+
+ <div class="answer-box">
+      <div class="stored-ans-box"><h6 id="h6"></h6></div>
+      <div class="mini-answer-box"><h1 id="h1">0</h1></div>
+ </div>
+
+  <div class="row-1">
+      <button class="text-secondary">MC</button>
+      <button class="text-secondary">MR</button>
+      <button id="hover">M+</button>
+      <button id="hover">M-</button>
+      <button id="hover">MS</button>
+      <button class="text-secondary">M <sup><i class="fa fa-caret-down"></i></sup></button>
+  </div>
+  </div>
+  
+  <!-- Part3 -->
+  <div class="table">
+      <div class="row">
+          <button id="hover" onclick="percent()">%</button>
+          <button id="hover" onclick="clearScreen()">CE</button>
+          <button id="hover" onclick="clearh1Screen()">C</button>
+          <button id="hover" onclick="deleteprevnumber()"><i class="fa-solid fa-delete-left"></i> </button>
+      </div>
+      <div class="row">
+          <button id="hover"  onclick="inverse()"><sup>1</sup>/<sub>x</sub></button>
+          <button id="hover"  onclick="square()">x<sup>2</sup></button>
+          <button id="hover"  onclick="squareroot()"><i class="fa-solid fa-square-root-variable"></i></button>
+          <button id="hover" onclick="op('/')">/</button>
+      </div>
+      <div class="row">
+          <button id="hover" onclick="btn(7)" class="light" >7</button>
+          <button id="hover" onclick="btn(8)" class="light">8</button>
+          <button id="hover" onclick="btn(9)" class="light">9</button>
+          <button id="hover" onclick="op('*')"><i class="fa fa-times"></i></button>
+      </div>
+      <div class="row">
+          <button id="hover" onclick="btn(4)" class="light">4</button>
+          <button id="hover" onclick="btn(5)" class="light">5</button>
+          <button id="hover" onclick="btn(6)" class="light">6</button>
+          <button id="hover" onclick="op('-')"><i class="fa fa-minus"></i></button>
+      </div>
+      <div class="row">
+          <button id="hover" onclick="btn(1)" class="light">1</button>
+          <button id="hover" onclick="btn(2)" class="light">2</button>
+          <button id="hover" onclick="btn(3)" class="light">3</button>
+          <button id="hover" onclick="op('+')"><i class="fa fa-plus"></i></button>
+      </div>
+      <div class="row">
+          <button id="hover" class="light" onclick="plusorminus('+/-')">+/-</button>
+          <button id="hover" class="light" onclick="btn(0)">0</button>
+          <button id="hover" class="light" onclick="btn('.')">.</button>
+          <button class="blue" onclick="equals('=')">=</button>
+      </div>
+  </div>
+ 
+</div>
+</body>
+<script src="./script.js"></script>
+</html>
