@@ -229,6 +229,7 @@
 }
 @media (max-width:318px) {
     .calculator-body{
+        height: 80vh;
         width: 95%;
         left: 3%;
     
