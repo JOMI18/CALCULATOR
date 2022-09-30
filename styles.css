@@ -170,21 +170,18 @@
 
 @media (max-width:1337px) {
     .calculator-body{
-        height: 80vh;
         width: 34%;
         
     }
 }
 @media (max-width:1134px) {
     .calculator-body{
-        height: 80vh;
         width: 40%;
    
    }
 }
 @media (max-width:937px) {
     .calculator-body{
-        height: 80vh;
         width: 50%;
    
     }
@@ -203,7 +200,6 @@
 }
 @media (max-width:593px) {
     .calculator-body{
-        height: 74vh;
         width: 86%;
         left: 8%;
    
@@ -211,7 +207,6 @@
 }
 @media (max-width:444px) {
     .calculator-body{
-        height: 74vh;
         width: 95%;
         left: 2%;
    
@@ -219,7 +214,6 @@
 }
 @media (max-width:393px) {
     .calculator-body{
-        height: 74vh;
         width: 95%;
         left: 2%;
    
@@ -234,7 +228,6 @@
 }
 @media (max-width:318px) {
     .calculator-body{
-        height: 60vh;
         width: 95%;
         left: 3%;
    
