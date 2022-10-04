@@ -131,6 +131,7 @@
     width: 55px;
     font-weight: 500;
     height: 30px;
+    margin-bottom: 5px;
     background-color: transparent;
      border: none;
 }
@@ -171,6 +172,7 @@
 @media (max-width:1337px) {
     .calculator-body{
         width: 34%;
+        height: 100vh;
         
     }
 }
@@ -186,9 +188,8 @@
    
     }
 }
-@media (max-width:766px) {
+@media (max-width:775px) {
     .calculator-body{
-        height: 80vh;
         width: 62%;
         left: 25%;
    
@@ -228,13 +229,16 @@
 }
 @media (max-width:318px) {
     .calculator-body{
+        height: 80vh;
         width: 95%;
         left: 3%;
-   
+    
     }
     .row button{
         width: 50px;
+
         height: 45px;
+
         font-size: 15px;
         text-align: center;
         border: 1px solid rgb(218, 204, 204);
