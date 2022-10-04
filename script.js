@@ -8,6 +8,10 @@ function btn(value){
     if(h1.innerHTML ==0){
         h1.innerHTML='';
     }
+    if(h1.innerHTML==finalAnswer){
+           h1.innerHTML=""
+           h6.innerHTML=""
+    }
     h1.innerHTML+=value;
 }
 
@@ -25,16 +29,16 @@ function op(answer){
 // notice how opera is '' the first time so its false so after running the second time 
 // it wpould make opera true
 
-    if ( opera ) {
+    if (opera) {
     equals()
-}
+    }
 // if i press a number and an operation in the absense of an equals to let it continue
 // to work
     opera=answer;
     prevOpert=h1.innerHTML;
     h6.innerHTML= `${prevOpert} ${opera}`;
 
-        if (h1.innerHTML = prevOpert) {
+        if (h1.innerHTML == prevOpert) {
         h1.innerHTML=0;
         } 
          
@@ -98,4 +102,8 @@ function equals(){
 
 h6.innerHTML=`${firstvalue} ${opera} ${secondvalue} =`;
    h1.innerHTML=finalAnswer;
+
+   if(finalAnswer){
+    opera="";
+   }
 }
