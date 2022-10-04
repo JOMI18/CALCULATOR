@@ -236,7 +236,9 @@
     }
     .row button{
         width: 50px;
-        height: 30px;
+
+        height: 45px;
+
         font-size: 15px;
         text-align: center;
         border: 1px solid rgb(218, 204, 204);
